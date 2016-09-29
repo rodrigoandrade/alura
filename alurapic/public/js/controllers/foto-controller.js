@@ -21,8 +21,8 @@ angular.module('alurapic')
 					$scope.mensagem = dados.mensagem;
 					if (dados.inclusao) $scope.foto = {};
 				})
-				.catch(function(erro) {
-					$scope.mensagem = erro.mensagem;
+				.catch(function(dados) {
+					$scope.mensagem = dados.mensagem;
 				});
 			}
 		};
