@@ -31,7 +31,7 @@ public class FileSaver {
 			
 			return file.getOriginalFilename();*/
 			
-			BlobInfo blobInfo = storage.create(BlobInfo.newBuilder("casadocodigo-livros-rodrigoandrade",
+			BlobInfo blobInfo = storage.create(BlobInfo.newBuilder("xxxx",
                     file.getOriginalFilename()).build(),
                     file.getBytes(),
             BlobTargetOption.predefinedAcl(PredefinedAcl.PUBLIC_READ));
